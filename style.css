@@ -1,0 +1,64 @@
+.d-block {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.puter {
+  height: 24px;
+  width: 24px;
+}
+
+.s {
+  height: 48px;
+  width: 48px;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #1a1a1a, black);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.background {
+  background-color: black;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.atasan {
+  height: 65%;
+  width: 100%;
+}
+
+/* Mengganti font pada semua paragraf menjadi "Merriweather" */
+p {
+  font-family: "Merriweather", serif;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+.rounded-3 {
+  border-radius: var(--bs-border-radius-lg) !important;
+}
+
+.card {
+  /* Sesuaikan nilai ketinggian berdasarkan kebutuhan Anda */
+  height: 375px;
+}
